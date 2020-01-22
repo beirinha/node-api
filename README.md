@@ -14,4 +14,10 @@ cd note-api
 yarn dev
 ```
 
+### Don't forget to configure your user, password and database name in moongose.connect
+
+```sh
+mongodb+srv://<user>:<password>@cluster0-3wvmv.gcp.mongodb.net/<databasename>?retryWrites=true&w=majority', {
+```
+
 #### Thanks to [Rocketseat](https://rocketseat.com.br/)
